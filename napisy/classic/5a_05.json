@@ -1,0 +1,40 @@
+{
+ "movie": "5a_05",
+ "lines": [
+  {
+   "start": 0.96,
+   "kind": "d",
+   "pl": "Czekaj."
+  },
+  {
+   "start": 2.26,
+   "kind": "d",
+   "pl": "Chcę Denny'ego żywego."
+  },
+  {
+   "start": 5.5,
+   "kind": "ad",
+   "pl": "Cassandra dobywa miecza."
+  },
+  {
+   "start": 6.83,
+   "kind": "d",
+   "pl": "Na pewno?"
+  },
+  {
+   "start": 8.72,
+   "kind": "d",
+   "pl": "Chcę dać temu grubemu chujowi nauczkę."
+  },
+  {
+   "start": 13.26,
+   "kind": "d",
+   "pl": "Chodźmy obejrzeć walkę."
+  },
+  {
+   "start": 15.0,
+   "kind": "ad",
+   "pl": "Cassandra unosi miecz nad Dennym. Na niebie czerwony sierp księżyca."
+  }
+ ]
+}

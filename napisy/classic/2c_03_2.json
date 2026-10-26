@@ -1,0 +1,25 @@
+{
+ "movie": "2c_03_2",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Zatrzymaliście się na pieprzony manicure?"
+  },
+  {
+   "start": 2.92,
+   "kind": "d",
+   "pl": "Gdzie jesteście?"
+  },
+  {
+   "start": 4.84,
+   "kind": "d",
+   "pl": "Jesteśmy w zaułku za Złotym Łańcuchem."
+  },
+  {
+   "start": 7.68,
+   "kind": "d",
+   "pl": "Wyślij Babyface'a, wyślij wsparcie, wyślij, kurwa, wszystkich!"
+  }
+ ]
+}

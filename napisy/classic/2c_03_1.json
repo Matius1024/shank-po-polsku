@@ -1,0 +1,20 @@
+{
+ "movie": "2c_03_1",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Pospiesz się!"
+  },
+  {
+   "start": 1.4,
+   "kind": "d",
+   "pl": "Ten dupek nie chce się ode mnie odczepić!"
+  },
+  {
+   "start": 3.78,
+   "kind": "d",
+   "pl": "Niech śmigłowiec czeka na mnie na dachu Złotej Rybki!"
+  }
+ ]
+}

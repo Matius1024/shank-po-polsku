@@ -1,0 +1,40 @@
+{
+ "movie": "5b_02",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "ad",
+   "pl": "Zapaśnik z kobietami w szatni."
+  },
+  {
+   "start": 1.46,
+   "kind": "d",
+   "pl": "To czekaj na mnie w limuzynie."
+  },
+  {
+   "start": 7.0,
+   "kind": "d",
+   "pl": "Tak, mamy ścisłą zasadę: żadnych świadków, panie."
+  },
+  {
+   "start": 11.8,
+   "kind": "d",
+   "pl": "Cesar może mieć mój kontrakt, ale nie ma mojej kariery."
+  },
+  {
+   "start": 16.6,
+   "kind": "d",
+   "pl": "Czegoś nie zapomniałeś?"
+  },
+  {
+   "start": 18.6,
+   "kind": "d",
+   "pl": "Nie kładę się dla nikogo!"
+  },
+  {
+   "start": 21.6,
+   "kind": "d",
+   "pl": "Och, myślę, że się położysz. Prawda, Shank?"
+  }
+ ]
+}

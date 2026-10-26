@@ -1,0 +1,15 @@
+{
+ "movie": "5d_02",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Ava biegnie korytarzem."
+  },
+  {
+   "start": 2.2,
+   "kind": "ad",
+   "pl": "Zagląda przez drzwi. Jest przerażona."
+  }
+ ]
+}

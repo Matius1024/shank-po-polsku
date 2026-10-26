@@ -1,0 +1,30 @@
+{
+ "movie": "2c_01",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Wychodzi Wielki Denny, a Shank na to: co jest, kurwa?"
+  },
+  {
+   "start": 3.78,
+   "kind": "d",
+   "pl": "Mówię ci, bezcenne."
+  },
+  {
+   "start": 6.94,
+   "kind": "d",
+   "pl": "Tęskniłeś?"
+  },
+  {
+   "start": 8.0,
+   "kind": "ad",
+   "pl": "Shank chwyta chudzielca za gardło."
+  },
+  {
+   "start": 10.5,
+   "kind": "ad",
+   "pl": "Chudzielec wyrywa się i ucieka w głąb ulicy."
+  }
+ ]
+}

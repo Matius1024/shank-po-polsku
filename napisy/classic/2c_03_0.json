@@ -1,0 +1,25 @@
+{
+ "movie": "2c_03_0",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "ad",
+   "pl": "Chudzielec dzwoni po pomoc."
+  },
+  {
+   "start": 1.82,
+   "kind": "d",
+   "pl": "Mam na karku od cholery kłopotów."
+  },
+  {
+   "start": 4.12,
+   "kind": "d",
+   "pl": "Rusz tu dupę!"
+  },
+  {
+   "start": 6.22,
+   "kind": "d",
+   "pl": "Jestem tuż przed Karmą."
+  }
+ ]
+}

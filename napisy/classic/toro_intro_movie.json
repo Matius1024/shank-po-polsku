@@ -1,0 +1,20 @@
+{
+ "movie": "toro_intro_movie",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Na tarasie hacjendy czeka umięśniony olbrzym z bandażem na głowie."
+  },
+  {
+   "start": 4.68,
+   "kind": "d",
+   "pl": "Tu się to kończy, głupcze."
+  },
+  {
+   "start": 7.9,
+   "kind": "ad",
+   "pl": "Olbrzym szczerzy zęby."
+  }
+ ]
+}

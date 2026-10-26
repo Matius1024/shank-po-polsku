@@ -1,0 +1,70 @@
+{
+ "movie": "4c_07",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Na tarasie Shank ściera się z Cesarem."
+  },
+  {
+   "start": 3.0,
+   "kind": "ad",
+   "pl": "Cesar tnie go szablą, tryska krew."
+  },
+  {
+   "start": 6.5,
+   "kind": "ad",
+   "pl": "Shank atakuje piłą łańcuchową, ale pada ranny na posadzkę."
+  },
+  {
+   "start": 12.0,
+   "kind": "ad",
+   "pl": "Cesar wyciąga dwa pistolety i śmieje się."
+  },
+  {
+   "start": 20.0,
+   "kind": "ad",
+   "pl": "Shank wstaje. Cesar strzela, a Shank odbija kule i rusza na niego."
+  },
+  {
+   "start": 31.5,
+   "kind": "ad",
+   "pl": "Błysk. Walczą wręcz."
+  },
+  {
+   "start": 35.5,
+   "kind": "ad",
+   "pl": "Shank uderza Cesara głową i unosi nóż."
+  },
+  {
+   "start": 39.74,
+   "kind": "d",
+   "pl": "Zamknij się!"
+  },
+  {
+   "start": 42.0,
+   "kind": "ad",
+   "pl": "Ciemność, a potem nóż wbija się w szyję Cesara."
+  },
+  {
+   "start": 49.5,
+   "kind": "ad",
+   "pl": "Cesar leży martwy na posadzce, z raną na czole."
+  },
+  {
+   "start": 57.5,
+   "kind": "ad",
+   "pl": "Shank klęka przy nim, a potem wstaje."
+  },
+  {
+   "start": 63.5,
+   "kind": "ad",
+   "pl": "Shank odchodzi samotnie w stronę zachodzącego słońca."
+  },
+  {
+   "start": 72.0,
+   "kind": "ad",
+   "pl": "Napis: Shank. Koniec."
+  }
+ ]
+}

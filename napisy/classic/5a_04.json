@@ -1,0 +1,30 @@
+{
+ "movie": "5a_04",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Ooo, Denny lubi, jak się stawiasz, suko."
+  },
+  {
+   "start": 3.2,
+   "kind": "ad",
+   "pl": "Denny dusi Cassandrę."
+  },
+  {
+   "start": 4.36,
+   "kind": "d",
+   "pl": "Nikt ci nie pomoże."
+  },
+  {
+   "start": 7.39,
+   "kind": "d",
+   "pl": "Tamci chujkowie pewnie już nie żyją."
+  },
+  {
+   "start": 11.05,
+   "kind": "d",
+   "pl": "My, chujkowie, wciąż żyjemy, dupku."
+  }
+ ]
+}

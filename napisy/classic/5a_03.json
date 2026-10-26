@@ -1,0 +1,70 @@
+{
+ "movie": "5a_03",
+ "lines": [
+  {
+   "start": 0.27,
+   "kind": "d",
+   "pl": "Kurczę, nie wierzę, że ty kiedykolwiek..."
+  },
+  {
+   "start": 4.92,
+   "kind": "d",
+   "pl": "Ona cię chce, stary."
+  },
+  {
+   "start": 8.68,
+   "kind": "d",
+   "pl": "Poza tym mam Avę."
+  },
+  {
+   "start": 10.9,
+   "kind": "d",
+   "pl": "Twoja przedszkolanka tak potrafi?"
+  },
+  {
+   "start": 13.3,
+   "kind": "ad",
+   "pl": "Na scenie tańczy striptizerka. Przy stolikach siedzą motocykliści."
+  },
+  {
+   "start": 21.8,
+   "kind": "ad",
+   "pl": "Tłusty motocyklista w różowych okularach ślini się przy scenie."
+  },
+  {
+   "start": 26.6,
+   "kind": "d",
+   "pl": "Tak, mała."
+  },
+  {
+   "start": 28.68,
+   "kind": "d",
+   "pl": "Denny ma dla ciebie prezent."
+  },
+  {
+   "start": 30.96,
+   "kind": "d",
+   "pl": "I to naprawdę duży. Widziałem go."
+  },
+  {
+   "start": 33.0,
+   "kind": "ad",
+   "pl": "Motocyklista łapie tancerkę za nogę."
+  },
+  {
+   "start": 35.66,
+   "kind": "d",
+   "pl": "Tylko do patrzenia, przyjacielu."
+  },
+  {
+   "start": 37.86,
+   "kind": "d",
+   "pl": "Spadaj, amigo."
+  },
+  {
+   "start": 40.48,
+   "kind": "d",
+   "pl": "Dusty, trzeba dać tym chujkom nauczkę."
+  }
+ ]
+}

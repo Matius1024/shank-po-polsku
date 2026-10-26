@@ -1,0 +1,60 @@
+{
+ "movie": "4a_01",
+ "lines": [
+  {
+   "start": 0.94,
+   "kind": "d",
+   "pl": "Nigdy nie przestajesz imponować, Shank."
+  },
+  {
+   "start": 4.87,
+   "kind": "d",
+   "pl": "Kiedy spadł ten dzwon, myślałem, że już po tobie, ale i z tego się wywinąłeś."
+  },
+  {
+   "start": 11.0,
+   "kind": "ad",
+   "pl": "Angelo pociąga za dźwignię."
+  },
+  {
+   "start": 13.0,
+   "kind": "ad",
+   "pl": "Prąd przeszywa Shanka przypiętego do krzesła elektrycznego. Przed oczami ma Avę."
+  },
+  {
+   "start": 24.0,
+   "kind": "ad",
+   "pl": "Shank ledwo przytomny. W drzwiach staje Cesar."
+  },
+  {
+   "start": 32.99,
+   "kind": "d",
+   "pl": "Jesteś moim największym rozczarowaniem."
+  },
+  {
+   "start": 36.2,
+   "kind": "d",
+   "pl": "A ty moim."
+  },
+  {
+   "start": 39.94,
+   "kind": "d",
+   "pl": "Wykończ go."
+  },
+  {
+   "start": 41.4,
+   "kind": "d",
+   "pl": "Trzeba było zostać martwym."
+  },
+  {
+   "start": 44.0,
+   "kind": "ad",
+   "pl": "Ciemność. Zbiry podchodzą do krzesła, a Shank zrywa więzy."
+  },
+  {
+   "start": 52.5,
+   "kind": "ad",
+   "pl": "Iskry. Shank zabija oprawców w czerwonym półmroku."
+  }
+ ]
+}

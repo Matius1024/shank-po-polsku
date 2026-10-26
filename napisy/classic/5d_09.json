@@ -1,0 +1,110 @@
+{
+ "movie": "5d_09",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Wspólnik i olbrzym w garniturze walczą na noże. Shank tnie olbrzyma, tryska krew."
+  },
+  {
+   "start": 11.5,
+   "kind": "ad",
+   "pl": "Shank patrzy przed siebie, przerażony."
+  },
+  {
+   "start": 17.37,
+   "kind": "d",
+   "pl": "Ava..."
+  },
+  {
+   "start": 19.2,
+   "kind": "ad",
+   "pl": "W drzwiach stoi zakrwawiona Ava. Ochroniarz z przepaską na oku łapie ją i celuje w nią z pistoletu."
+  },
+  {
+   "start": 24.3,
+   "kind": "d",
+   "pl": "Nie!"
+  },
+  {
+   "start": 26.5,
+   "kind": "ad",
+   "pl": "Wspólnik pada na podłogę, zostaje kałuża krwi."
+  },
+  {
+   "start": 33.98,
+   "kind": "d",
+   "pl": "Widziała, jak zastrzeliłem zastępcę burmistrza. Świadków. A potem mnie."
+  },
+  {
+   "start": 40.0,
+   "kind": "ad",
+   "pl": "Ava, ranna, patrzy na Shanka. Shank celuje do ochroniarza."
+  },
+  {
+   "start": 44.5,
+   "kind": "ad",
+   "pl": "Shank skacze z dwoma pistoletami i strzela. Ochroniarz pada martwy."
+  },
+  {
+   "start": 52.0,
+   "kind": "ad",
+   "pl": "Ava podbiega i rzuca się Shankowi w ramiona."
+  },
+  {
+   "start": 57.42,
+   "kind": "d",
+   "pl": "Shank!"
+  },
+  {
+   "start": 58.56,
+   "kind": "d",
+   "pl": "Co jest, kurwa?"
+  },
+  {
+   "start": 59.98,
+   "kind": "d",
+   "pl": "Rozpoznali go!"
+  },
+  {
+   "start": 61.46,
+   "kind": "d",
+   "pl": "To osobisty ochroniarz Cesara!"
+  },
+  {
+   "start": 66.96,
+   "kind": "d",
+   "pl": "Dość już wycierpiałeś."
+  },
+  {
+   "start": 70.06,
+   "kind": "d",
+   "pl": "Shank!"
+  },
+  {
+   "start": 73.78,
+   "kind": "d",
+   "pl": "Shank!"
+  },
+  {
+   "start": 75.5,
+   "kind": "ad",
+   "pl": "Pusta droga przez palmowy zagajnik. W oddali znika samochód."
+  },
+  {
+   "start": 80.06,
+   "kind": "d",
+   "pl": "Idźcie za nim, żeby znaleźć dziewczynę."
+  },
+  {
+   "start": 83.02,
+   "kind": "d",
+   "pl": "Potem zabijcie oboje."
+  },
+  {
+   "start": 85.0,
+   "kind": "ad",
+   "pl": "Napis: Shank."
+  }
+ ]
+}

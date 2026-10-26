@@ -1,0 +1,65 @@
+{
+ "movie": "2c_05",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Kurde, Shank."
+  },
+  {
+   "start": 1.32,
+   "kind": "d",
+   "pl": "Wiesz, ja się tylko z tobą trochę zabawiałem."
+  },
+  {
+   "start": 3.7,
+   "kind": "d",
+   "pl": "Wiedziałem, że dasz radę tym gościom."
+  },
+  {
+   "start": 5.9,
+   "kind": "ad",
+   "pl": "Shank mierzy do niego z pistoletu."
+  },
+  {
+   "start": 7.26,
+   "kind": "d",
+   "pl": "Myślę, że powinniśmy połączyć siły, stary."
+  },
+  {
+   "start": 9.28,
+   "kind": "d",
+   "pl": "Skoro Falcone'a już nie ma, mógłbym być twoim nowym wspólnikiem."
+  },
+  {
+   "start": 13.16,
+   "kind": "d",
+   "pl": "Ach, proszę..."
+  },
+  {
+   "start": 15.58,
+   "kind": "d",
+   "pl": "Serio?"
+  },
+  {
+   "start": 16.3,
+   "kind": "ad",
+   "pl": "Shank chowa broń i jednym cięciem odrąbuje chudzielcowi rękę."
+  },
+  {
+   "start": 21.5,
+   "kind": "ad",
+   "pl": "Tryska krew, ręka leży na ziemi."
+  },
+  {
+   "start": 26.5,
+   "kind": "d",
+   "pl": "Powiedz Angelowi, że jest następny."
+  },
+  {
+   "start": 29.0,
+   "kind": "ad",
+   "pl": "Chudzielec ucieka, zostawiając smugę krwi."
+  }
+ ]
+}

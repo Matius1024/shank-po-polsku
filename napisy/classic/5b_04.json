@@ -1,0 +1,30 @@
+{
+ "movie": "5b_04",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Czy nie zrobiłem wszystkiego, czego chce?"
+  },
+  {
+   "start": 2.44,
+   "kind": "d",
+   "pl": "Ściągałem długi, tłukłem dłużników na kwaśne jabłko."
+  },
+  {
+   "start": 5.96,
+   "kind": "d",
+   "pl": "Czemu mam przegrać z takim marnym palantem jak El Raton?"
+  },
+  {
+   "start": 9.88,
+   "kind": "d",
+   "pl": "Za dużo pytań, nie ta odpowiedź."
+  },
+  {
+   "start": 12.2,
+   "kind": "ad",
+   "pl": "Shank łapie zapaśnika od tyłu."
+  }
+ ]
+}

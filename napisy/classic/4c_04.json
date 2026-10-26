@@ -1,0 +1,30 @@
+{
+ "movie": "4c_04",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Gabinet Cesara. Siwy Cesar z kucykiem stoi przy oknie, plecami do drzwi."
+  },
+  {
+   "start": 5.14,
+   "kind": "d",
+   "pl": "Gdzie Angelo?"
+  },
+  {
+   "start": 6.98,
+   "kind": "d",
+   "pl": "Już nie musimy się nim przejmować."
+  },
+  {
+   "start": 10.76,
+   "kind": "d",
+   "pl": "Zaczynamy?"
+  },
+  {
+   "start": 12.5,
+   "kind": "ad",
+   "pl": "Cesar odwraca się i dobywa zakrzywionej szabli."
+  }
+ ]
+}

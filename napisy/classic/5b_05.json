@@ -1,0 +1,95 @@
+{
+ "movie": "5b_05",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "W powietrzu wiruje wybity ząb. Zapaśnik leży nieprzytomny na bruku."
+  },
+  {
+   "start": 4.2,
+   "kind": "d",
+   "pl": "Uznajmy to za pierwszą ratę."
+  },
+  {
+   "start": 8.54,
+   "kind": "d",
+   "pl": "Znowu idziesz dziś wieczorem z tą swoją przedszkolanką?"
+  },
+  {
+   "start": 11.36,
+   "kind": "d",
+   "pl": "Tak."
+  },
+  {
+   "start": 12.46,
+   "kind": "d",
+   "pl": "Cesar ma rację."
+  },
+  {
+   "start": 13.68,
+   "kind": "d",
+   "pl": "Ava ma na ciebie zły wpływ."
+  },
+  {
+   "start": 15.6,
+   "kind": "ad",
+   "pl": "Hacjenda Cesara. Ochroniarz otwiera drzwi."
+  },
+  {
+   "start": 18.04,
+   "kind": "d",
+   "pl": "Hej, Rudy."
+  },
+  {
+   "start": 19.62,
+   "kind": "d",
+   "pl": "Widziałeś to?"
+  },
+  {
+   "start": 20.88,
+   "kind": "d",
+   "pl": "Wybiłem mu ząb na czysto."
+  },
+  {
+   "start": 23.1,
+   "kind": "d",
+   "pl": "Bum!"
+  },
+  {
+   "start": 23.58,
+   "kind": "d",
+   "pl": "Nawet nie trzeba było znieczulenia."
+  },
+  {
+   "start": 26.48,
+   "kind": "d",
+   "pl": "Co jest, kurwa?"
+  },
+  {
+   "start": 28.8,
+   "kind": "d",
+   "pl": "Doskonale."
+  },
+  {
+   "start": 31.16,
+   "kind": "d",
+   "pl": "Jak sobie chcesz, Pasikoniku."
+  },
+  {
+   "start": 32.56,
+   "kind": "d",
+   "pl": "Któryś z was kiedyś chybi."
+  },
+  {
+   "start": 34.5,
+   "kind": "d",
+   "pl": "Wątpię."
+  },
+  {
+   "start": 36.74,
+   "kind": "d",
+   "pl": "Shank, muszę z tobą później porozmawiać."
+  }
+ ]
+}

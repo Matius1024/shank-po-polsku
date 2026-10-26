@@ -1,0 +1,20 @@
+{
+ "movie": "2a_05",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Cassandra z mieczem rzuca się na Shanka."
+  },
+  {
+   "start": 2.5,
+   "kind": "ad",
+   "pl": "Shank strzela. Kula trafia ją w czoło."
+  },
+  {
+   "start": 7.5,
+   "kind": "ad",
+   "pl": "Cassandra leży martwa w kałuży krwi. Shank odchodzi."
+  }
+ ]
+}

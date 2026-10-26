@@ -1,0 +1,45 @@
+{
+ "movie": "unlock_game",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Zwiastun pełnej wersji. Na pustyni stoi Shank, za nim słońce."
+  },
+  {
+   "start": 4.0,
+   "kind": "ad",
+   "pl": "Napis: Shank."
+  },
+  {
+   "start": 5.5,
+   "kind": "ad",
+   "pl": "Migawki z gry: Shank skacze po dachach i słupach, wspina się po lodowej ścianie, przemyka przez fabrykę."
+  },
+  {
+   "start": 28.0,
+   "kind": "ad",
+   "pl": "Rozwala bandytów w barze."
+  },
+  {
+   "start": 36.0,
+   "kind": "ad",
+   "pl": "Walczy na dachach z kolejnymi wrogami, a na moście z olbrzymem."
+  },
+  {
+   "start": 58.0,
+   "kind": "ad",
+   "pl": "Siecze piłą łańcuchową w rzeźni."
+  },
+  {
+   "start": 66.0,
+   "kind": "ad",
+   "pl": "Strzela, tnie i rzuca wrogami."
+  },
+  {
+   "start": 90.0,
+   "kind": "ad",
+   "pl": "Shank dusi łańcuchem olbrzyma. Napis: Shank."
+  }
+ ]
+}

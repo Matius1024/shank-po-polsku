@@ -1,0 +1,25 @@
+{
+ "movie": "5d_08",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Tam jest!"
+  },
+  {
+   "start": 2.0,
+   "kind": "ad",
+   "pl": "Shank i wspólnik wpadają na korytarz. Przy drzwiach stoi wąsaty olbrzym w garniturze."
+  },
+  {
+   "start": 6.0,
+   "kind": "ad",
+   "pl": "Olbrzym rozpina marynarkę i zaciska pięści."
+  },
+  {
+   "start": 9.07,
+   "kind": "d",
+   "pl": "Nie masz szans."
+  }
+ ]
+}

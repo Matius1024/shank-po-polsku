@@ -1,0 +1,20 @@
+{
+ "movie": "3c_06",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Angelo mierzy z wyrzutni."
+  },
+  {
+   "start": 2.16,
+   "kind": "d",
+   "pl": "Błogosławieni wytrwali, co, Shank?"
+  },
+  {
+   "start": 5.6,
+   "kind": "ad",
+   "pl": "Widok przez celownik."
+  }
+ ]
+}

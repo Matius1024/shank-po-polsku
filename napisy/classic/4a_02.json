@@ -1,0 +1,25 @@
+{
+ "movie": "4a_02",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Wybuch nad ranczem."
+  },
+  {
+   "start": 2.0,
+   "kind": "ad",
+   "pl": "Shank wyskakuje z płomieni z piłą łańcuchową."
+  },
+  {
+   "start": 6.0,
+   "kind": "ad",
+   "pl": "Cesar ze swoimi ludźmi patrzy w stronę dymu."
+  },
+  {
+   "start": 8.64,
+   "kind": "d",
+   "pl": "Sprawdźcie, co to było."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "movie": "5b_01",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Podziemny ring. Zapaśnik rzuca rywalem o ziemię."
+  },
+  {
+   "start": 4.2,
+   "kind": "ad",
+   "pl": "Shank i wspólnik patrzą z trybun."
+  },
+  {
+   "start": 9.04,
+   "kind": "d",
+   "pl": "Miał przegrać."
+  },
+  {
+   "start": 10.4,
+   "kind": "ad",
+   "pl": "Wspólnik sięga po pistolet."
+  },
+  {
+   "start": 12.72,
+   "kind": "d",
+   "pl": "Musimy zapytać Cesara."
+  },
+  {
+   "start": 14.68,
+   "kind": "d",
+   "pl": "Pieprzyć Cesara."
+  },
+  {
+   "start": 15.88,
+   "kind": "d",
+   "pl": "Kiedy będziesz rządził kartelem, będziesz mógł robić, co chcesz."
+  },
+  {
+   "start": 19.02,
+   "kind": "d",
+   "pl": "Ale na razie pytamy twojego ojca."
+  },
+  {
+   "start": 22.0,
+   "kind": "ad",
+   "pl": "Ochroniarze ich zauważają."
+  },
+  {
+   "start": 25.02,
+   "kind": "d",
+   "pl": "Ludzie Cesara."
+  },
+  {
+   "start": 26.34,
+   "kind": "d",
+   "pl": "Brać go!"
+  },
+  {
+   "start": 28.0,
+   "kind": "ad",
+   "pl": "Zaczyna się bójka."
+  }
+ ]
+}

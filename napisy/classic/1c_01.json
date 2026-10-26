@@ -1,0 +1,45 @@
+{
+ "movie": "1c_01",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Zachód słońca nad pustynią. Na horyzoncie mała sylwetka Shanka."
+  },
+  {
+   "start": 4.7,
+   "kind": "d",
+   "pl": "Ava!"
+  },
+  {
+   "start": 6.1,
+   "kind": "d",
+   "pl": "Ava!"
+  },
+  {
+   "start": 7.6,
+   "kind": "ad",
+   "pl": "Wspomnienie. Shank wbiega do domu."
+  },
+  {
+   "start": 10.28,
+   "kind": "d",
+   "pl": "Ava!"
+  },
+  {
+   "start": 11.8,
+   "kind": "ad",
+   "pl": "Zamaskowany olbrzym powala Shanka na ziemię."
+  },
+  {
+   "start": 19.5,
+   "kind": "ad",
+   "pl": "Shank leży pobity, z krwią na twarzy."
+  },
+  {
+   "start": 26.5,
+   "kind": "ad",
+   "pl": "Nad nim staje olbrzym w czerwono-czarnej masce."
+  }
+ ]
+}

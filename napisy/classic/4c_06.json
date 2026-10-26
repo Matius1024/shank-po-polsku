@@ -1,0 +1,65 @@
+{
+ "movie": "4c_06",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Nie znasz całej historii."
+  },
+  {
+   "start": 2.32,
+   "kind": "d",
+   "pl": "Nie wiesz, dlaczego nie mogłem jej zabić."
+  },
+  {
+   "start": 4.9,
+   "kind": "ad",
+   "pl": "Wspomnienie: Ava dotyka twarzy Shanka."
+  },
+  {
+   "start": 9.32,
+   "kind": "d",
+   "pl": "Jest coś, co powinieneś wiedzieć."
+  },
+  {
+   "start": 11.0,
+   "kind": "d",
+   "pl": "Noszę twojego syna."
+  },
+  {
+   "start": 14.64,
+   "kind": "d",
+   "pl": "Syna?"
+  },
+  {
+   "start": 15.8,
+   "kind": "ad",
+   "pl": "Do pokoju wpada Rzeźnik."
+  },
+  {
+   "start": 18.96,
+   "kind": "d",
+   "pl": "Nauczyłeś mnie, że nic nie jest ważniejsze od rodziny."
+  },
+  {
+   "start": 22.3,
+   "kind": "d",
+   "pl": "Ja byłem twoją rodziną."
+  },
+  {
+   "start": 24.12,
+   "kind": "d",
+   "pl": "Ona też."
+  },
+  {
+   "start": 26.9,
+   "kind": "d",
+   "pl": "Gdybym wiedział, że jest w ciąży, to by wiele zmieniło."
+  },
+  {
+   "start": 31.0,
+   "kind": "ad",
+   "pl": "Shank zaciska zęby z wściekłości."
+  }
+ ]
+}

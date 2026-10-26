@@ -1,0 +1,15 @@
+{
+ "movie": "1b_04",
+ "lines": [
+  {
+   "start": 0.5,
+   "kind": "ad",
+   "pl": "Pusta pustynia. Z oddali nadjeżdża samochód."
+  },
+  {
+   "start": 3.8,
+   "kind": "ad",
+   "pl": "Za kierownicą szczerzy się bandzior w chuście. Goni pociąg."
+  }
+ ]
+}

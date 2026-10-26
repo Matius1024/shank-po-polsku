@@ -1,0 +1,65 @@
+{
+ "movie": "2b_02_0",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Bar w czerwonym świetle. Shank patrzy na chudego mężczyznę z tatuażem."
+  },
+  {
+   "start": 5.0,
+   "kind": "ad",
+   "pl": "Wspomnienie: wąż wytatuowany na plecach. Napis: Angelo."
+  },
+  {
+   "start": 10.16,
+   "kind": "d",
+   "pl": "Ładny tatuaż."
+  },
+  {
+   "start": 13.26,
+   "kind": "d",
+   "pl": "Shank?"
+  },
+  {
+   "start": 14.16,
+   "kind": "d",
+   "pl": "Myślałem, że nie żyjesz!"
+  },
+  {
+   "start": 15.86,
+   "kind": "d",
+   "pl": "Znamy się?"
+  },
+  {
+   "start": 16.96,
+   "kind": "d",
+   "pl": "Żartujesz?"
+  },
+  {
+   "start": 18.16,
+   "kind": "d",
+   "pl": "Robiliśmy razem robotę!"
+  },
+  {
+   "start": 20.54,
+   "kind": "d",
+   "pl": "Powiedz mi, gdzie znajdę Angela."
+  },
+  {
+   "start": 22.76,
+   "kind": "d",
+   "pl": "Wiesz, jesteś dość nachalny jak na kogoś na terenie Venomów."
+  },
+  {
+   "start": 26.38,
+   "kind": "d",
+   "pl": "Wyglądam, jakby mnie to obchodziło?"
+  },
+  {
+   "start": 29.1,
+   "kind": "d",
+   "pl": "Słuszna uwaga."
+  }
+ ]
+}

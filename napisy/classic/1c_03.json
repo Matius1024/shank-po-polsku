@@ -1,0 +1,50 @@
+{
+ "movie": "1c_03",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Shank owija Rzeźnika łańcuchami z haków."
+  },
+  {
+   "start": 5.5,
+   "kind": "ad",
+   "pl": "Tnie go piłą łańcuchową, tryska krew."
+  },
+  {
+   "start": 9.5,
+   "kind": "ad",
+   "pl": "Zawiesza olbrzyma na łańcuchach."
+  },
+  {
+   "start": 14.0,
+   "kind": "ad",
+   "pl": "Rzeźnik wisi na hakach, zakrwawiony. Shank patrzy mu w oczy."
+  },
+  {
+   "start": 24.5,
+   "kind": "ad",
+   "pl": "Ciemność. Rzeźnik wisi bez życia."
+  },
+  {
+   "start": 35.5,
+   "kind": "ad",
+   "pl": "Shank wychodzi w noc. Przy drodze neon: Club Stardust, z rysunkiem tancerki."
+  },
+  {
+   "start": 42.14,
+   "kind": "d",
+   "pl": "Więc to ta mała dziwka?"
+  },
+  {
+   "start": 44.3,
+   "kind": "ad",
+   "pl": "Kobieta z mieczem. Napis: Cassandra."
+  },
+  {
+   "start": 46.6,
+   "kind": "ad",
+   "pl": "Shank rusza w stronę klubu."
+  }
+ ]
+}

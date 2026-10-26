@@ -1,0 +1,20 @@
+{
+ "movie": "introscee",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Napis: dla najlepszych wrażeń zalecamy grę na padzie."
+  },
+  {
+   "start": 4.0,
+   "kind": "ad",
+   "pl": "Na tle pustyni pojawia się czerwone logo EA."
+  },
+  {
+   "start": 9.8,
+   "kind": "ad",
+   "pl": "Logo studia Klei Entertainment."
+  }
+ ]
+}

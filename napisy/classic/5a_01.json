@@ -1,0 +1,105 @@
+{
+ "movie": "5a_01",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Jesteśmy wspólnikami od dziecka, więc wiesz, że jestem po twojej stronie."
+  },
+  {
+   "start": 3.92,
+   "kind": "d",
+   "pl": "I naprawdę mam gdzieś, gdzie moczysz kija, ale Cesar nie jest zadowolony."
+  },
+  {
+   "start": 9.06,
+   "kind": "d",
+   "pl": "Z powodu Avy?"
+  },
+  {
+   "start": 10.94,
+   "kind": "d",
+   "pl": "Ona jest przedszkolanką."
+  },
+  {
+   "start": 12.68,
+   "kind": "d",
+   "pl": "Jest nieszkodliwa."
+  },
+  {
+   "start": 14.28,
+   "kind": "d",
+   "pl": "No właśnie."
+  },
+  {
+   "start": 15.04,
+   "kind": "d",
+   "pl": "Ona nie jest taka jak my."
+  },
+  {
+   "start": 16.5,
+   "kind": "ad",
+   "pl": "Na podłodze leży pobity fryzjer. Wspólnik zabiera mu pieniądze."
+  },
+  {
+   "start": 20.16,
+   "kind": "d",
+   "pl": "Następnym razem chcę też golenie."
+  },
+  {
+   "start": 22.6,
+   "kind": "ad",
+   "pl": "Wspólnikowi dzwoni telefon."
+  },
+  {
+   "start": 25.34,
+   "kind": "d",
+   "pl": "Tak?"
+  },
+  {
+   "start": 27.56,
+   "kind": "d",
+   "pl": "Jasne."
+  },
+  {
+   "start": 29.54,
+   "kind": "d",
+   "pl": "Cassandra."
+  },
+  {
+   "start": 30.5,
+   "kind": "ad",
+   "pl": "Przed barem stoi rząd motocykli."
+  },
+  {
+   "start": 37.14,
+   "kind": "d",
+   "pl": "Co to za goście?"
+  },
+  {
+   "start": 38.82,
+   "kind": "d",
+   "pl": "Nie mam pojęcia."
+  },
+  {
+   "start": 40.24,
+   "kind": "d",
+   "pl": "Może się dowiemy?"
+  },
+  {
+   "start": 43.2,
+   "kind": "ad",
+   "pl": "Zza motocykli wychodzi banda motocyklistów w skórach."
+  },
+  {
+   "start": 45.62,
+   "kind": "d",
+   "pl": "Chyba nie słyszeliście, chłopcy."
+  },
+  {
+   "start": 51.0,
+   "kind": "d",
+   "pl": "Przejmujemy interes."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "movie": "credits_1",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Napisy końcowe. Twórcy gry: Jeff Agala i Jamie Cheng."
+  },
+  {
+   "start": 4.0,
+   "kind": "ad",
+   "pl": "Na czerwonym tle czarne sylwetki: Shank biegnie po dachach i walczy z kolejnymi wrogami."
+  },
+  {
+   "start": 42.0,
+   "kind": "ad",
+   "pl": "Rysunki Shanka z jego bronią: piła łańcuchowa, pistolety, granatnik, pistolet maszynowy, ostrza."
+  }
+ ]
+}

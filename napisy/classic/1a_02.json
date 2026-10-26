@@ -1,0 +1,180 @@
+{
+ "movie": "1a_02",
+ "lines": [
+  {
+   "start": 0.5,
+   "kind": "ad",
+   "pl": "Pustynia w pełnym słońcu. Drogą idzie umięśniony mężczyzna z czerwoną chustą na głowie i pasami na piersi. To Shank."
+  },
+  {
+   "start": 9.5,
+   "kind": "ad",
+   "pl": "Zakurzone meksykańskie miasteczko. Nad dachami pomnik skrzydlatego anioła."
+  },
+  {
+   "start": 14.5,
+   "kind": "ad",
+   "pl": "W ciemnym barze dwóch osiłków siłuje się na rękę. Pijak leży na podłodze."
+  },
+  {
+   "start": 20.0,
+   "kind": "ad",
+   "pl": "Shank wchodzi do baru i podchodzi do wąsatego barmana."
+  },
+  {
+   "start": 25.46,
+   "kind": "d",
+   "pl": "Co pijesz, kolego?"
+  },
+  {
+   "start": 27.46,
+   "kind": "d",
+   "pl": "Szukam kogoś."
+  },
+  {
+   "start": 30.0,
+   "kind": "d",
+   "pl": "He, he. Tutaj to zwykle ktoś szuka nas."
+  },
+  {
+   "start": 33.7,
+   "kind": "ad",
+   "pl": "Na ścianie wisi plakat walki zapaśników."
+  },
+  {
+   "start": 36.2,
+   "kind": "ad",
+   "pl": "Wspomnienie. Łysy olbrzym, Rzeźnik."
+  },
+  {
+   "start": 39.08,
+   "kind": "d",
+   "pl": "Nie mogę się doczekać, aż spróbuję twojej dziewczyny."
+  },
+  {
+   "start": 43.1,
+   "kind": "ad",
+   "pl": "Napis: Rzeźnik. Olbrzym okłada Shanka."
+  },
+  {
+   "start": 46.7,
+   "kind": "d",
+   "pl": "Znalazłem ją!"
+  },
+  {
+   "start": 48.6,
+   "kind": "ad",
+   "pl": "Shank, zakrwawiony, patrzy na Rzeźnika."
+  },
+  {
+   "start": 52.52,
+   "kind": "d",
+   "pl": "Zabiłbym cię teraz, przyjacielu, ale chcę, żebyś usłyszał, jak krzyczy."
+  },
+  {
+   "start": 57.02,
+   "kind": "d",
+   "pl": "Nie! Nie!"
+  },
+  {
+   "start": 60.4,
+   "kind": "ad",
+   "pl": "Rzeźnik odchodzi przez drzwi."
+  },
+  {
+   "start": 62.8,
+   "kind": "d",
+   "pl": "Lubisz walki?"
+  },
+  {
+   "start": 64.2,
+   "kind": "ad",
+   "pl": "Shank zgniata plakat."
+  },
+  {
+   "start": 66.78,
+   "kind": "d",
+   "pl": "Nie tego zapaśnika."
+  },
+  {
+   "start": 69.68,
+   "kind": "d",
+   "pl": "Słyszałem, że nie żyjesz."
+  },
+  {
+   "start": 71.6,
+   "kind": "d",
+   "pl": "Źle słyszałeś."
+  },
+  {
+   "start": 73.68,
+   "kind": "d",
+   "pl": "Nie znoszę się mylić."
+  },
+  {
+   "start": 75.8,
+   "kind": "ad",
+   "pl": "Barman dzwoni do kogoś."
+  },
+  {
+   "start": 78.92,
+   "kind": "d",
+   "pl": "Mam tu przy barze twojego starego kumpla, Shanka."
+  },
+  {
+   "start": 82.7,
+   "kind": "d",
+   "pl": "Co mam z nim zrobić?"
+  },
+  {
+   "start": 85.34,
+   "kind": "d",
+   "pl": "Wykończ go."
+  },
+  {
+   "start": 87.02,
+   "kind": "d",
+   "pl": "Jasne."
+  },
+  {
+   "start": 87.6,
+   "kind": "d",
+   "pl": "Brać go!"
+  },
+  {
+   "start": 88.8,
+   "kind": "ad",
+   "pl": "Bandyci otaczają Shanka. Jeden rzuca się z maczetą, ale Shank wyciąga nóż i tnie ich jednego po drugim."
+  },
+  {
+   "start": 97.0,
+   "kind": "ad",
+   "pl": "Dwóch gangsterów celuje do Shanka z obu stron. Shank wytrąca im pistolety, łapie je w locie i strzela do obu."
+  },
+  {
+   "start": 106.0,
+   "kind": "ad",
+   "pl": "Strzelanina. Po chwili Shank stoi sam wśród trupów."
+  },
+  {
+   "start": 112.0,
+   "kind": "ad",
+   "pl": "Z cienia wychodzi wielki osiłek z piłą łańcuchową."
+  },
+  {
+   "start": 119.0,
+   "kind": "ad",
+   "pl": "Shank rzuca w niego nożami i zabija go w fontannie krwi."
+  },
+  {
+   "start": 125.5,
+   "kind": "ad",
+   "pl": "Shank zabiera piłę łańcuchową i zarzuca ją na ramię."
+  },
+  {
+   "start": 129.5,
+   "kind": "ad",
+   "pl": "Z ukrycia patrzą na niego kolejni bandyci."
+  }
+ ]
+}

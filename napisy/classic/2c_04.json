@@ -1,0 +1,20 @@
+{
+ "movie": "2c_04",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Shank się rozgląda."
+  },
+  {
+   "start": 2.04,
+   "kind": "d",
+   "pl": "Ej, ty, chodź tu."
+  },
+  {
+   "start": 4.3,
+   "kind": "ad",
+   "pl": "Z uliczki wychodzi banda: herszt w okularach i hawajskiej koszuli, osiłki z nożami."
+  }
+ ]
+}

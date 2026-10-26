@@ -1,0 +1,20 @@
+{
+ "movie": "2b_03",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Obskurny korytarz. Shank wyważa drzwi."
+  },
+  {
+   "start": 3.16,
+   "kind": "d",
+   "pl": "Uważajcie na siebie, chłopcy, i pamiętajcie: bez gumki ani rusz."
+  },
+  {
+   "start": 8.0,
+   "kind": "ad",
+   "pl": "Chudzielec szczerzy się w drzwiach."
+  }
+ ]
+}

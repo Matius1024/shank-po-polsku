@@ -1,0 +1,40 @@
+{
+ "movie": "1c_02",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Dalej żyjesz jak w bajce, co, Rzeźniku?"
+  },
+  {
+   "start": 4.0,
+   "kind": "d",
+   "pl": "Shank!"
+  },
+  {
+   "start": 5.16,
+   "kind": "d",
+   "pl": "Zabiłbym cię teraz, przyjacielu, ale chcę, żebyś usłyszał, jak krzyczy."
+  },
+  {
+   "start": 9.8,
+   "kind": "ad",
+   "pl": "Wspomnienie: Rzeźnik zakłada maskę i wynosi kobietę z pokoju."
+  },
+  {
+   "start": 16.78,
+   "kind": "d",
+   "pl": "Zapłacisz za zabicie Avy."
+  },
+  {
+   "start": 19.72,
+   "kind": "d",
+   "pl": "Mówię ci, słodko się ją ujeżdżało, jak tak walczyła o życie."
+  },
+  {
+   "start": 25.1,
+   "kind": "ad",
+   "pl": "W rzeźni Rzeźnik w zakrwawionym fartuchu i czerwonych rękawicach rzuca się na Shanka."
+  }
+ ]
+}

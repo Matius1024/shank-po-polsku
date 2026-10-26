@@ -1,0 +1,30 @@
+{
+ "movie": "1a_03",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Uciekł."
+  },
+  {
+   "start": 2.2,
+   "kind": "ad",
+   "pl": "Telefon odbiera siwy mężczyzna w szelkach."
+  },
+  {
+   "start": 6.08,
+   "kind": "d",
+   "pl": "Shank wrócił."
+  },
+  {
+   "start": 8.99,
+   "kind": "d",
+   "pl": "Kto go zabije, temu będę wdzięczny i sowicie go wynagrodzę."
+  },
+  {
+   "start": 13.5,
+   "kind": "ad",
+   "pl": "Na zleceniu: osiłek z maczetą, rudowłosa z pistoletem i generał."
+  }
+ ]
+}

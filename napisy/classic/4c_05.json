@@ -1,0 +1,90 @@
+{
+ "movie": "4c_05",
+ "lines": [
+  {
+   "start": 0.0,
+   "kind": "d",
+   "pl": "Przez lata stałeś się lepszy."
+  },
+  {
+   "start": 2.84,
+   "kind": "d",
+   "pl": "Szkoda, że nie potrafiłeś być lojalny."
+  },
+  {
+   "start": 5.68,
+   "kind": "d",
+   "pl": "Lojalny?"
+  },
+  {
+   "start": 6.86,
+   "kind": "d",
+   "pl": "Nie wysłałeś mnie tam, żeby sprawdzić moją lojalność."
+  },
+  {
+   "start": 10.94,
+   "kind": "d",
+   "pl": "Musiałeś ją znaleźć."
+  },
+  {
+   "start": 12.6,
+   "kind": "ad",
+   "pl": "Wspomnienie: Cesar w swoim klubie wydaje rozkaz."
+  },
+  {
+   "start": 16.82,
+   "kind": "d",
+   "pl": "Idźcie za nim, żeby znaleźć dziewczynę."
+  },
+  {
+   "start": 18.92,
+   "kind": "d",
+   "pl": "Potem zabijcie oboje."
+  },
+  {
+   "start": 20.3,
+   "kind": "ad",
+   "pl": "Słuchają go Rzeźnik, Cassandra, Angelo i wąsaty osiłek."
+  },
+  {
+   "start": 23.12,
+   "kind": "d",
+   "pl": "Mówiłeś, że tylko go sprawdzisz!"
+  },
+  {
+   "start": 25.36,
+   "kind": "d",
+   "pl": "To własny umysł człowieka, a nie jego wróg, zwodzi go na złą drogę."
+  },
+  {
+   "start": 30.0,
+   "kind": "d",
+   "pl": "Przestaniesz z tym gównem?"
+  },
+  {
+   "start": 31.64,
+   "kind": "d",
+   "pl": "Nigdy cię nie rozumiem."
+  },
+  {
+   "start": 33.48,
+   "kind": "d",
+   "pl": "Shank dokonał wyboru, kiedy zastrzelił Rudy'ego, tak jak ty dokonasz wyboru teraz."
+  },
+  {
+   "start": 41.0,
+   "kind": "ad",
+   "pl": "Shank idzie przez pustynię do domu Avy."
+  },
+  {
+   "start": 49.5,
+   "kind": "ad",
+   "pl": "Do Avy podchodzi mężczyzna. Teraźniejszość: Shank staje z nożem przed Cesarem."
+  },
+  {
+   "start": 53.24,
+   "kind": "d",
+   "pl": "Zaprowadziłeś ich prosto do niej."
+  }
+ ]
+}

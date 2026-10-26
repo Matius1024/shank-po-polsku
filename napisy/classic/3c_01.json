@@ -1,0 +1,50 @@
+{
+ "movie": "3c_01",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Smuga krwi na trawie."
+  },
+  {
+   "start": 2.2,
+   "kind": "ad",
+   "pl": "Prowadzi do gotyckiego kościoła na wzgórzu."
+  },
+  {
+   "start": 5.5,
+   "kind": "ad",
+   "pl": "W środku chudzielec bez ręki pada na kolana przed Angelem w sutannie."
+  },
+  {
+   "start": 10.22,
+   "kind": "d",
+   "pl": "O co chodzi, mój synu?"
+  },
+  {
+   "start": 12.52,
+   "kind": "d",
+   "pl": "Shank wrócił."
+  },
+  {
+   "start": 14.6,
+   "kind": "d",
+   "pl": "Gdzie on teraz jest?"
+  },
+  {
+   "start": 18.64,
+   "kind": "d",
+   "pl": "Idzie tutaj."
+  },
+  {
+   "start": 22.56,
+   "kind": "d",
+   "pl": "Nie mogę się doczekać."
+  },
+  {
+   "start": 26.0,
+   "kind": "ad",
+   "pl": "Shank idzie po krwawym śladzie w stronę kościoła."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "movie": "1a_07",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Shank dobija zamaskowanego zapaśnika i odcina mu głowę piłą łańcuchową."
+  },
+  {
+   "start": 6.0,
+   "kind": "ad",
+   "pl": "Wspomnienie: tatuaż z wilkiem na ramieniu Rzeźnika."
+  },
+  {
+   "start": 11.5,
+   "kind": "ad",
+   "pl": "Shank patrzy na odciętą głowę w masce."
+  },
+  {
+   "start": 17.5,
+   "kind": "ad",
+   "pl": "Pod maską jest obca twarz. To nie Rzeźnik."
+  },
+  {
+   "start": 21.0,
+   "kind": "ad",
+   "pl": "Shank jest wściekły."
+  },
+  {
+   "start": 25.3,
+   "kind": "ad",
+   "pl": "Łysy organizator walk próbuje uciec. Shank go łapie."
+  },
+  {
+   "start": 29.78,
+   "kind": "d",
+   "pl": "Spróbuj w Dzielnicy Mięsnej. Możesz pojechać pociągiem do..."
+  },
+  {
+   "start": 32.9,
+   "kind": "d",
+   "pl": "Wiem, gdzie to jest."
+  }
+ ]
+}

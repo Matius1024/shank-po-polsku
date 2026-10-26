@@ -1,0 +1,25 @@
+{
+ "movie": "5c_01",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Noc. Pod kościołem strażnik z karabinem."
+  },
+  {
+   "start": 2.7,
+   "kind": "d",
+   "pl": "A myślałem, że dziś będzie nudno."
+  },
+  {
+   "start": 6.1,
+   "kind": "d",
+   "pl": "Cesar kazał przyprowadzić księdza żywego i zrobić to po cichu."
+  },
+  {
+   "start": 11.38,
+   "kind": "d",
+   "pl": "Jak pieprzona kościelna mysz."
+  }
+ ]
+}

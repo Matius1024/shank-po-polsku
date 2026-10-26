@@ -1,0 +1,25 @@
+{
+ "movie": "2a_01",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Neon: Club Stardust."
+  },
+  {
+   "start": 2.0,
+   "kind": "ad",
+   "pl": "Shank podchodzi do łysego bramkarza i powala go jednym ciosem."
+  },
+  {
+   "start": 7.74,
+   "kind": "d",
+   "pl": "Szukam Cassandry."
+  },
+  {
+   "start": 10.3,
+   "kind": "ad",
+   "pl": "Shank wchodzi do klubu."
+  }
+ ]
+}

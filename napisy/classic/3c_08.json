@@ -1,0 +1,35 @@
+{
+ "movie": "3c_08",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Angelo leży ranny przy swojej broni. Shank podchodzi."
+  },
+  {
+   "start": 4.0,
+   "kind": "ad",
+   "pl": "Z góry sypie się gruz."
+  },
+  {
+   "start": 9.5,
+   "kind": "ad",
+   "pl": "Spada na niego dzwon."
+  },
+  {
+   "start": 13.2,
+   "kind": "ad",
+   "pl": "Shank leży przygnieciony."
+  },
+  {
+   "start": 15.44,
+   "kind": "d",
+   "pl": "Chcę go żywego."
+  },
+  {
+   "start": 17.6,
+   "kind": "ad",
+   "pl": "Angelo i jego zbiry otaczają nieprzytomnego Shanka."
+  }
+ ]
+}

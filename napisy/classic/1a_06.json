@@ -1,0 +1,30 @@
+{
+ "movie": "1a_06",
+ "lines": [
+  {
+   "start": 0.88,
+   "kind": "d",
+   "pl": "Dość!"
+  },
+  {
+   "start": 2.0,
+   "kind": "ad",
+   "pl": "Zapaśnik w masce masakruje rywala na ringu."
+  },
+  {
+   "start": 4.5,
+   "kind": "ad",
+   "pl": "Shank odpycha łysego staruszka."
+  },
+  {
+   "start": 7.34,
+   "kind": "d",
+   "pl": "Rzeźniku!"
+  },
+  {
+   "start": 8.8,
+   "kind": "ad",
+   "pl": "Shank staje naprzeciw zamaskowanego olbrzyma w klatce."
+  }
+ ]
+}

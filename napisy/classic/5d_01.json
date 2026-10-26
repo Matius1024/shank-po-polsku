@@ -1,0 +1,165 @@
+{
+ "movie": "5d_01",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Wieczór. Shank wysiada z kabrioletu, Ava zostaje."
+  },
+  {
+   "start": 4.0,
+   "kind": "ad",
+   "pl": "Shank żegna się z Avą i odbiera telefon."
+  },
+  {
+   "start": 7.64,
+   "kind": "d",
+   "pl": "Tak."
+  },
+  {
+   "start": 9.44,
+   "kind": "d",
+   "pl": "Teraz?"
+  },
+  {
+   "start": 11.7,
+   "kind": "d",
+   "pl": "Ale jestem z Avą."
+  },
+  {
+   "start": 14.42,
+   "kind": "d",
+   "pl": "Dobra, będę."
+  },
+  {
+   "start": 19.38,
+   "kind": "d",
+   "pl": "Jeden przystanek i jedziemy dalej."
+  },
+  {
+   "start": 22.0,
+   "kind": "ad",
+   "pl": "Za rogiem stoi dwóch policjantów z bronią."
+  },
+  {
+   "start": 31.64,
+   "kind": "d",
+   "pl": "Zaraz wracam."
+  },
+  {
+   "start": 33.0,
+   "kind": "ad",
+   "pl": "Na parkingu czekają wspólnik i ochroniarz z przepaską."
+  },
+  {
+   "start": 36.3,
+   "kind": "d",
+   "pl": "Myślałem, że zastępca burmistrza miał tu być dopiero jutro."
+  },
+  {
+   "start": 39.64,
+   "kind": "d",
+   "pl": "Cesar mówi, że robimy to teraz."
+  },
+  {
+   "start": 42.0,
+   "kind": "ad",
+   "pl": "Przed salą stoi kordon policji i limuzyna."
+  },
+  {
+   "start": 47.96,
+   "kind": "d",
+   "pl": "To nasz gość?"
+  },
+  {
+   "start": 49.3,
+   "kind": "d",
+   "pl": "Aha."
+  },
+  {
+   "start": 49.86,
+   "kind": "d",
+   "pl": "Cesar mówi, że jak sprzątniemy tego gnoja, przekupimy kapitana policji i będziemy mieć antyterrorystów na zawołanie."
+  },
+  {
+   "start": 56.46,
+   "kind": "d",
+   "pl": "Miło będzie dla odmiany nie walczyć z antyterrorystami."
+  },
+  {
+   "start": 59.98,
+   "kind": "d",
+   "pl": "Tobie może."
+  },
+  {
+   "start": 62.24,
+   "kind": "d",
+   "pl": "Rudy, pilnuj tylnego wejścia."
+  },
+  {
+   "start": 64.0,
+   "kind": "ad",
+   "pl": "Policjant podchodzi do kabrioletu Avy."
+  },
+  {
+   "start": 66.3,
+   "kind": "d",
+   "pl": "Co tu się dzieje?"
+  },
+  {
+   "start": 67.7,
+   "kind": "d",
+   "pl": "Zastępca burmistrza wygłasza przemówienie."
+  },
+  {
+   "start": 69.48,
+   "kind": "d",
+   "pl": "Ostro bierze się za kartele."
+  },
+  {
+   "start": 71.94,
+   "kind": "d",
+   "pl": "Musi pani przestawić samochód."
+  },
+  {
+   "start": 73.58,
+   "kind": "d",
+   "pl": "Kluczyki ma mój chłopak."
+  },
+  {
+   "start": 75.6,
+   "kind": "d",
+   "pl": "To lepiej go pani znajdzie, bo odholujemy."
+  },
+  {
+   "start": 78.0,
+   "kind": "ad",
+   "pl": "Ava odjeżdża."
+  },
+  {
+   "start": 80.0,
+   "kind": "ad",
+   "pl": "Wspólnik podchodzi do strażników z bronią."
+  },
+  {
+   "start": 82.98,
+   "kind": "d",
+   "pl": "Macie przepustki?"
+  },
+  {
+   "start": 84.52,
+   "kind": "d",
+   "pl": "Tak."
+  },
+  {
+   "start": 85.7,
+   "kind": "d",
+   "pl": "Proszę."
+  },
+  {
+   "start": 86.6,
+   "kind": "ad",
+   "pl": "Wspólnik wyciąga pistolet i strzela. Strażnicy padają."
+  }
+ ]
+}

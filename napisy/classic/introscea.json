@@ -1,0 +1,25 @@
+{
+ "movie": "introscea",
+ "lines": [
+  {
+   "start": 0.3,
+   "kind": "ad",
+   "pl": "Napis: gra zapisuje postęp sama, w punktach kontrolnych."
+  },
+  {
+   "start": 4.0,
+   "kind": "ad",
+   "pl": "Oznaczenie wiekowe: od 17 lat. Krew, przemoc, wulgaryzmy i treści seksualne."
+  },
+  {
+   "start": 8.5,
+   "kind": "ad",
+   "pl": "Na tle pustyni pojawia się czerwone logo EA."
+  },
+  {
+   "start": 13.5,
+   "kind": "ad",
+   "pl": "Logo studia Klei Entertainment."
+  }
+ ]
+}

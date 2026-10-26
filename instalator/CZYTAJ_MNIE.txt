@@ -1,0 +1,48 @@
+SHANK PO POLSKU
+Polski lektor i audiodeskrypcja do scenek filmowych z gry Shank (2010)
+
+CO TO ROBI
+Gdy w grze leci scenka filmowa, program odtwarza polskiego lektora (głos męski)
+na tle ściszonego oryginału. W przerwach między kwestiami drugi głos (kobiecy)
+czyta audiodeskrypcję, czyli opis tego, co widać na ekranie.
+Lektor i opisy są gotowe dla wszystkich 63 filmów z gry.
+
+Program działa samodzielnie, obok gry. Nie zmienia żadnych plików gry
+i nie potrzebuje żadnego moda. Można go używać razem z modem dostępności
+Shank Access albo bez niego.
+
+WYMAGANIA
+- Windows 10 lub 11.
+- Gra Shank, najlepiej ze Steam.
+- Najlepsza jest gałąź "classic" gry na Steam: dla niej wszystkie scenki mają
+  lektora i audiodeskrypcję. Jak ją włączyć: w Steam kliknij prawym przyciskiem
+  grę Shank, wybierz Właściwości, potem Wersje beta i z listy wybierz "classic".
+  W zwykłej wersji gry 38 scenek ma lektora i audiodeskrypcję, a pozostałe
+  tylko lektora (bez opisów, z mniej dokładnym tłumaczeniem).
+
+JAK UŻYWAĆ
+Po instalacji program działa w tle i sam rusza razem z Windows (jeśli przy
+instalacji zostawiono tę opcję zaznaczoną). Wystarczy uruchomić grę jak zwykle.
+Przy starcie gry czytnik ekranu powie "Polski lektor i audiodeskrypcja włączone".
+Skrót "Shank po polsku" na Pulpicie i w menu Start uruchamia program i grę naraz.
+
+USTAWIENIA
+W menu Start, w folderze "Shank po polsku", jest skrót "Ustawienia". Otwiera on
+plik shank_polski.ini w Notatniku. Tam można:
+- wyłączyć audiodeskrypcję (audiodeskrypcja=0),
+- zamiast nagrań lektora używać czytnika ekranu (tryb=napisy),
+- zmienić głośność gry pod lektorem,
+- wpisać folder gry, gdy gra nie jest ze Steam.
+Zmiany działają od następnego uruchomienia gry.
+
+GDY COŚ NIE DZIAŁA
+Program zapisuje dziennik w pliku shank_polski.log w folderze programu
+(skrót "Folder programu" w menu Start). Widać tam, które scenki rozpoznał.
+
+ODINSTALOWANIE
+Menu Start, folder "Shank po polsku", "Odinstaluj Shank po polsku".
+Można też przez Ustawienia Windows, Aplikacje.
+
+O NAGRANIACH
+Tłumaczenie i audiodeskrypcja: projekt fanowski. Głosy: syntezator mowy
+Microsoft (Marek i Zofia). Gra Shank należy do Klei Entertainment.

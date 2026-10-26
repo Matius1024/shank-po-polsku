@@ -1,0 +1,11 @@
+lektor/
+dist/
+shank_access/
+transcripts/
+transcripts2/
+transcripts_classic/
+__pycache__/
+/shank_polski.log
+/shank_polski.ini
+Shank po polsku.bat
+NOTEBOOK.md
