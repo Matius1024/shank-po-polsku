@@ -219,19 +219,23 @@ def watch(game, player, classic):
     """Sledzi otwieranie i zamykanie plikow filmow, dopoki gra dziala."""
     playing = set(open_movies(game) or ())  # film juz trwajacy przy starcie programu pomijamy
     versions = {}
+    current = None  # film, ktory teraz czyta lektor
     while True:
         before = time.monotonic()
         now = open_movies(game)
         if now is None:
             return
-        if playing - now:
-            player.stop()
         for path in playing - now:
-            if path in versions:
-                movie, version = versions.pop(path)
-                v = after_movie(movie, version)
-                if v and not now - playing:  # od konca filmu gra mowi dalej sama (np. spacer z Mello w 2b)
-                    player.play(f"po_{movie}", v, before - POLL / 2)
+            movie, version = versions.pop(path, (None, None))
+            # Gra zamyka poprzedni film chwile po otwarciu nastepnego (3c_02 -> spowiedz 3c_03):
+            # zamkniecie starego filmu nie moze ucinac lektora nowego.
+            if path != current:
+                continue
+            player.stop()
+            current = None
+            v = after_movie(movie, version) if movie else None
+            if v and not now - playing:  # od konca filmu gra mowi dalej sama (np. spacer z Mello w 2b)
+                player.play(f"po_{movie}", v, before - POLL / 2)
         for path in now - playing:
             movie = os.path.splitext(os.path.basename(path))[0].lower()
             try:
@@ -241,6 +245,7 @@ def watch(game, player, classic):
             sizes, shared = classic
             version = "classic" if sizes.get(movie) == size or movie in shared else "zwykla"
             versions[path] = (movie, version)
+            current = path
             # Plik otwarto gdzies miedzy poprzednim a tym sprawdzeniem: srodek tego okna.
             player.play(movie, version, before - POLL / 2)
         playing = now
