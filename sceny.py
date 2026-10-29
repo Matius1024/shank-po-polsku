@@ -198,6 +198,25 @@ S["2b_02_1"] = {"d": [
     (2.4, "Wspomnienie: Cesar, siwy brodacz, w loży pełnej kobiet."),
     (43.2, "Idą do budynku z neonem Sweet Love."),
 ]}
+# Kwestie grane w samej grze (dzwieki FMOD, nie filmy): "po_<film>" = czasy liczone od konca filmu.
+# Po 2b_02_0 Shank idzie z Mello (campaign_2b_lovehotel, "Start walk and talk with Mello"): Mello_walk1
+# (Mello_sp_89_90) po 120 tickach = 2,0 s, Mello_walk2 (Mello_sp_91) po 396 klatkach = 13,2 s.
+S["po_2b_02_0"] = {"d": [
+    (2.00, "Ile cię nie było w mieście?"),
+    (3.80, "Sześć, siedem lat?"),
+    (5.74, "Co ty, do cholery, przez ten czas robiłeś?"),
+    (7.88, "O rany, Cesar musi być wściekły."),
+    (10.48, "Słyszałem, że miałeś zostać prawą ręką Cesara."),
+    (13.20, "Mogłeś mieć wszystko, czego chciałeś, stary."),
+    (15.18, "Najgorętsze laski, najczystszy towar."),
+    (17.74, "Ja bym przeleciał słonia, gdyby Cesar kazał."),
+], "ad": [(0.2, "Shank idzie ulicą z chudzielcem.")]}
+# Po 2b_02_1 Mello dzwoni (Mello_phonecall = Mello_sp_106_107_108) po 30 tickach = 0,5 s; 2b_03 po 8,5 s.
+S["po_2b_02_1"] = {"d": [
+    (0.50, "Hej, jesteśmy na miejscu. Przyślij szefa na dół."),
+    (3.36, "Tu Mello."),
+    (5.48, "Jesteśmy w cukierkowym pokoju."),
+], "ad": []}
 S["2b_03"] = {"d": [(3.16, "Uważajcie na siebie, chłopcy, i pamiętajcie: bez gumki ani rusz.")], "ad": [
     (0.2, "Obskurny korytarz. Shank wyważa drzwi."),
     (8.0, "Chudzielec szczerzy się w drzwiach."),

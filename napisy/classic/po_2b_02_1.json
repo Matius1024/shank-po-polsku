@@ -1,0 +1,20 @@
+{
+ "movie": "po_2b_02_1",
+ "lines": [
+  {
+   "start": 0.5,
+   "kind": "d",
+   "pl": "Hej, jesteśmy na miejscu. Przyślij szefa na dół."
+  },
+  {
+   "start": 3.36,
+   "kind": "d",
+   "pl": "Tu Mello."
+  },
+  {
+   "start": 5.48,
+   "kind": "d",
+   "pl": "Jesteśmy w cukierkowym pokoju."
+  }
+ ]
+}

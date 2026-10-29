@@ -207,9 +207,18 @@ def open_movies(game):
         return None if not game.is_running() else set()
 
 
+def after_movie(movie, version):
+    """Kwestie grane w samej grze po filmie (napisy/<wersja>/po_<film>.json); te same dzwieki w obu wersjach."""
+    for v in (version, "classic"):
+        if os.path.exists(os.path.join(ROOT, "napisy", v, f"po_{movie}.json")):
+            return v
+    return None
+
+
 def watch(game, player, classic):
     """Sledzi otwieranie i zamykanie plikow filmow, dopoki gra dziala."""
     playing = set(open_movies(game) or ())  # film juz trwajacy przy starcie programu pomijamy
+    versions = {}
     while True:
         before = time.monotonic()
         now = open_movies(game)
@@ -217,6 +226,12 @@ def watch(game, player, classic):
             return
         if playing - now:
             player.stop()
+        for path in playing - now:
+            if path in versions:
+                movie, version = versions.pop(path)
+                v = after_movie(movie, version)
+                if v and not now - playing:  # od konca filmu gra mowi dalej sama (np. spacer z Mello w 2b)
+                    player.play(f"po_{movie}", v, before - POLL / 2)
         for path in now - playing:
             movie = os.path.splitext(os.path.basename(path))[0].lower()
             try:
@@ -225,6 +240,7 @@ def watch(game, player, classic):
                 size = -1
             sizes, shared = classic
             version = "classic" if sizes.get(movie) == size or movie in shared else "zwykla"
+            versions[path] = (movie, version)
             # Plik otwarto gdzies miedzy poprzednim a tym sprawdzeniem: srodek tego okna.
             player.play(movie, version, before - POLL / 2)
         playing = now

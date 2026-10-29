@@ -1,0 +1,50 @@
+{
+ "movie": "po_2b_02_0",
+ "lines": [
+  {
+   "start": 0.2,
+   "kind": "ad",
+   "pl": "Shank idzie ulicą z chudzielcem."
+  },
+  {
+   "start": 2.0,
+   "kind": "d",
+   "pl": "Ile cię nie było w mieście?"
+  },
+  {
+   "start": 3.8,
+   "kind": "d",
+   "pl": "Sześć, siedem lat?"
+  },
+  {
+   "start": 5.74,
+   "kind": "d",
+   "pl": "Co ty, do cholery, przez ten czas robiłeś?"
+  },
+  {
+   "start": 7.88,
+   "kind": "d",
+   "pl": "O rany, Cesar musi być wściekły."
+  },
+  {
+   "start": 10.48,
+   "kind": "d",
+   "pl": "Słyszałem, że miałeś zostać prawą ręką Cesara."
+  },
+  {
+   "start": 13.2,
+   "kind": "d",
+   "pl": "Mogłeś mieć wszystko, czego chciałeś, stary."
+  },
+  {
+   "start": 15.18,
+   "kind": "d",
+   "pl": "Najgorętsze laski, najczystszy towar."
+  },
+  {
+   "start": 17.74,
+   "kind": "d",
+   "pl": "Ja bym przeleciał słonia, gdyby Cesar kazał."
+  }
+ ]
+}
