@@ -33,6 +33,13 @@ instalacji zostawiono tę opcję zaznaczoną). Wystarczy uruchomić grę jak zwy
 Przy starcie gry czytnik ekranu powie "Polski lektor i audiodeskrypcja włączone".
 Skrót "Shank po polsku" na Pulpicie i w menu Start uruchamia program i grę naraz.
 
+KLAWISZE W GRZE
+A: zmienia, co jest czytane: lektor i audiodeskrypcja, tylko lektor, tylko
+   audiodeskrypcja. Pomija to, czego nie zainstalowano.
+S: włącza i wyłącza czytanie. Po włączeniu wraca ostatni wybór.
+Czytnik ekranu mówi, co jest włączone, a wybór zostaje na następny raz.
+Klawisze działają tylko wtedy, gdy gra jest aktywnym oknem.
+
 USTAWIENIA
 W menu Start, w folderze "Shank po polsku", jest skrót "Ustawienia". Otwiera on
 plik shank_polski.ini w Notatniku. Tam można:

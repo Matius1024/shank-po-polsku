@@ -19,6 +19,11 @@ Program działa samodzielnie, obok gry. Nie zmienia plików gry i nie potrzebuje
 Można go używać razem z modem dostępności [Shank Access](https://github.com/KarlBelanger/shank_access) albo bez niego.
 Scenki rozpoznaje po pliku filmu, który otwiera gra.
 
+## Klawisze w grze
+
+- **A**: zmienia, co jest czytane: lektor i audiodeskrypcja, tylko lektor, tylko audiodeskrypcja. Pomija to, czego nie zainstalowano.
+- **S**: włącza i wyłącza czytanie.
+
 ## Wersje gry
 
 - **Gałąź „classic” na Steam** (zalecana): wszystkie scenki mają lektora i audiodeskrypcję.
