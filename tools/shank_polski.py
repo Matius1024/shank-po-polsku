@@ -20,6 +20,7 @@ import subprocess
 import sys
 import threading
 import time
+import wave
 import winsound
 
 import psutil
@@ -136,16 +137,9 @@ class Player:
         self.ad, self.dialogue, self.enabled = ad, dialogue, enabled
         self.cancel = threading.Event()
         self.thread = None
-        self.sounding = None  # rodzaj kwestii ("d", "ad"), ktorej nagranie teraz gra
 
     def wants(self, kind):
         return self.enabled and {"d": self.dialogue, "ad": self.ad}.get(kind, True)
-
-    def settings_changed(self):
-        """Po klawiszu: nagranie tego, co wlasnie wylaczono, urywa sie; reszta dziala od nastepnej kwestii."""
-        if self.sounding and not self.wants(self.sounding):
-            winsound.PlaySound(None, winsound.SND_PURGE)
-            set_game_volume(1.0)
 
     def play(self, movie, version, started):
         self.stop()
@@ -178,16 +172,28 @@ class Player:
             wav = os.path.join(ROOT, "lektor", version, f"{movie}_{i:03d}.wav")
             if self.mode == "lektor" and os.path.exists(wav):
                 set_game_volume(self.duck)  # jak lektor w telewizji: oryginal ciszej pod polskim glosem
-                self.sounding = kind
-                winsound.PlaySound(wav, winsound.SND_FILENAME | winsound.SND_NODEFAULT)
-                self.sounding = None
+                self._play_wav(wav, kind)
                 set_game_volume(1.0)
             else:
                 self.speaker.say(text)
 
+    def _play_wav(self, wav, kind):
+        """Gra nagranie do konca; urywa je tylko wylaczenie tego rodzaju kwestii klawiszem A lub S.
+        Bez SND_ASYNC urwanie czekaloby na koniec nagrania."""
+        with wave.open(wav) as w:
+            end = time.monotonic() + w.getnframes() / w.getframerate()
+        winsound.PlaySound(wav, winsound.SND_FILENAME | winsound.SND_NODEFAULT | winsound.SND_ASYNC)
+        while time.monotonic() < end:
+            if not self.wants(kind):
+                winsound.PlaySound(None, winsound.SND_PURGE)
+                return
+            time.sleep(0.02)
+
     def stop(self):
+        """Koniec filmu nie ucina kwestii: czeka, az trwajace nagranie sie skonczy (gracz: sens wazniejszy)."""
         self.cancel.set()
-        winsound.PlaySound(None, winsound.SND_PURGE)
+        if self.thread and self.thread.is_alive():
+            self.thread.join()
         set_game_volume(1.0)
 
 
@@ -225,7 +231,6 @@ def next_mode(player, speaker, has_dialogue, has_ad):
     save_setting("lektor", int(player.dialogue))
     save_setting("audiodeskrypcja", int(player.ad))
     log(f"klawisz A: lektor {int(player.dialogue)}, audiodeskrypcja {int(player.ad)}")
-    player.settings_changed()
     speaker.say(text, interrupt=True)
 
 
@@ -234,7 +239,6 @@ def toggle_program(player, speaker):
     player.enabled = not player.enabled
     save_setting("wlaczony", int(player.enabled))
     log(f"klawisz S: wlaczony {int(player.enabled)}")
-    player.settings_changed()
     name = "Polski lektor" if player.dialogue else "Polska audiodeskrypcja"
     state = ("włączony" if player.enabled else "wyłączony") if player.dialogue else \
         ("włączona" if player.enabled else "wyłączona")
