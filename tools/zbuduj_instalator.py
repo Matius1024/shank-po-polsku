@@ -7,6 +7,7 @@
 
 Uzycie: D:\\ShankPolski-audio\\buildenv\\Scripts\\python.exe tools\\zbuduj_instalator.py [wersja]
 """
+import json
 import os
 import shutil
 import subprocess
@@ -17,6 +18,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 WORK = r"D:\ShankPolski-audio\budowa"
 PAKIET = r"D:\ShankPolski-audio\pakiet"
+PAKIET_LEKTOR = r"D:\ShankPolski-audio\pakiet_lektor"
+PAKIET_AD = r"D:\ShankPolski-audio\pakiet_ad"
 ISCC = os.path.join(os.environ["LOCALAPPDATA"], r"Programs\Inno Setup 6\ISCC.exe")
 NAME = "Shank po polsku"
 VERSIONS = ["classic", "zwykla"]
@@ -38,19 +41,33 @@ def shrink(src, dst):
     run(["ffmpeg", "-v", "error", "-y", "-i", src, "-ac", "1", "-ar", "24000", "-c:a", "pcm_s16le", dst])
 
 
+def is_description(version, wav):
+    """Czy nagranie <film>_<nr>.wav to audiodeskrypcja (pole kind kwestii nr w napisach filmu)."""
+    movie, nr = wav[:-4].rsplit("_", 1)
+    with open(os.path.join(ROOT, "napisy", version, movie + ".json"), encoding="utf-8") as f:
+        return json.load(f)["lines"][int(nr)].get("kind", "d") == "ad"
+
+
 def main():
     version = sys.argv[1] if len(sys.argv) > 1 else "1.0"
     exe_dir = build_exe()
     if os.path.exists(PAKIET):
         shutil.rmtree(PAKIET)
     shutil.copytree(exe_dir, PAKIET)
+    # Nagrania osobno, bo instalator kopiuje tylko to, co wybral gracz (lektor, audiodeskrypcja).
+    for folder in (PAKIET_LEKTOR, PAKIET_AD):
+        if os.path.exists(folder):
+            shutil.rmtree(folder)
     jobs = []
     for v in VERSIONS:
         shutil.copytree(os.path.join(ROOT, "napisy", v), os.path.join(PAKIET, "napisy", v))
-        out = os.path.join(PAKIET, "lektor", v)
-        os.makedirs(out)
         src = os.path.join(ROOT, "lektor", v)
-        jobs += [(os.path.join(src, f), os.path.join(out, f)) for f in os.listdir(src) if f.endswith(".wav")]
+        for folder in (PAKIET_LEKTOR, PAKIET_AD):
+            os.makedirs(os.path.join(folder, "lektor", v))
+        for f in os.listdir(src):
+            if f.endswith(".wav"):
+                folder = PAKIET_AD if is_description(v, f) else PAKIET_LEKTOR
+                jobs.append((os.path.join(src, f), os.path.join(folder, "lektor", v, f)))
     with ThreadPoolExecutor(os.cpu_count()) as pool:
         list(pool.map(lambda j: shrink(*j), jobs))
     print(f"{len(jobs)} nagran")
@@ -63,7 +80,8 @@ def main():
         text = f.read()
     with open(iss, "w", encoding="utf-8-sig") as f:
         f.write(text)
-    run([ISCC, f"/DPAKIET={PAKIET}", f"/DWersja={version}", iss])
+    run([ISCC, f"/DPAKIET={PAKIET}", f"/DPAKIET_LEKTOR={PAKIET_LEKTOR}", f"/DPAKIET_AD={PAKIET_AD}",
+         f"/DWersja={version}", iss])
 
 
 if __name__ == "__main__":

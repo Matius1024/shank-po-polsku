@@ -8,6 +8,12 @@
 #ifndef PAKIET
   #define PAKIET "D:\ShankPolski-audio\pakiet"
 #endif
+#ifndef PAKIET_LEKTOR
+  #define PAKIET_LEKTOR "D:\ShankPolski-audio\pakiet_lektor"
+#endif
+#ifndef PAKIET_AD
+  #define PAKIET_AD "D:\ShankPolski-audio\pakiet_ad"
+#endif
 
 [Setup]
 AppId={{6B0E2A4C-7F1D-4C8E-9B3A-5D2F8E1C4A70}
@@ -47,6 +53,9 @@ Name: "pulpit"; Description: "Skrót na Pulpicie (uruchamia program i grę)"
 Source: "{#PAKIET}\*"; DestDir: "{app}"; Excludes: "shank_polski.ini"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; ustawienia gracza zostaja przy aktualizacji
 Source: "{#PAKIET}\shank_polski.ini"; DestDir: "{app}"; Flags: onlyifdoesntexist
+; nagrania tylko tego, co wybral gracz
+Source: "{#PAKIET_LEKTOR}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Check: ChceLektora
+Source: "{#PAKIET_AD}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Check: ChceOpisow
 
 [InstallDelete]
 ; stare nagrania z poprzedniej wersji
@@ -78,7 +87,48 @@ Type: files; Name: "{app}\shank_polski.log"
 [Code]
 var
   StronaFolderu: TInputDirWizardPage;
+  StronaZawartosci: TInputOptionWizardPage;
   Manifest: String;
+
+const
+  OBA = 0;
+  TYLKO_LEKTOR = 1;
+  TYLKO_OPISY = 2;
+
+function ChceLektora: Boolean;
+begin
+  Result := StronaZawartosci.SelectedValueIndex <> TYLKO_OPISY;
+end;
+
+function ChceOpisow: Boolean;
+begin
+  Result := StronaZawartosci.SelectedValueIndex <> TYLKO_LEKTOR;
+end;
+
+// Wybor z poprzedniej instalacji albo z wiersza polecen: /ZAWARTOSC=oba, lektor lub opisy.
+function WyborPoczatkowy: Integer;
+var
+  Wybor: String;
+begin
+  Wybor := Lowercase(ExpandConstant('{param:ZAWARTOSC|' + GetPreviousData('Zawartosc', 'oba') + '}'));
+  Result := OBA;
+  if Wybor = 'lektor' then
+    Result := TYLKO_LEKTOR
+  else if Wybor = 'opisy' then
+    Result := TYLKO_OPISY;
+end;
+
+procedure RegisterPreviousData(PreviousDataKey: Integer);
+var
+  Wybor: String;
+begin
+  Wybor := 'oba';
+  if StronaZawartosci.SelectedValueIndex = TYLKO_LEKTOR then
+    Wybor := 'lektor'
+  else if StronaZawartosci.SelectedValueIndex = TYLKO_OPISY then
+    Wybor := 'opisy';
+  SetPreviousData(PreviousDataKey, 'Zawartosc', Wybor);
+end;
 
 // Plik Steam o zainstalowanej grze (app 6120): w glownym folderze Steam albo w innej bibliotece.
 function ZnajdzManifest(var Wynik: String): Boolean;
@@ -136,6 +186,14 @@ end;
 
 procedure InitializeWizard;
 begin
+  StronaZawartosci := CreateInputOptionPage(wpSelectDir, 'Co zainstalować',
+    'Wybierz, co ma być czytane w scenkach.',
+    'Lektor czyta polskie tłumaczenie kwestii postaci. Audiodeskrypcja opisuje, co widać na ekranie.',
+    True, False);
+  StronaZawartosci.Add('Lektor i audiodeskrypcja');
+  StronaZawartosci.Add('Tylko lektor');
+  StronaZawartosci.Add('Tylko audiodeskrypcja');
+  StronaZawartosci.SelectedValueIndex := WyborPoczatkowy;
   StronaFolderu := CreateInputDirPage(wpSelectTasks, 'Folder gry',
     'Nie znaleziono gry Shank na Steam.',
     'Jeśli masz grę z innego źródła, na przykład GOG, wpisz jej folder. Możesz też zostawić puste pole i przejść dalej.',
@@ -164,19 +222,30 @@ begin
   end;
 end;
 
-// Wpisuje folder gry do ustawien; plik w UTF-8, bo tak czyta go program.
-procedure ZapiszFolderGry(Folder: String);
+// Wpisuje ustawienie do pliku; w UTF-8, bo tak czyta go program. Starszy plik moze nie miec tej linii.
+procedure ZapiszUstawienie(Nazwa, Wartosc: String);
 var
   Plik: String;
   Linie: TArrayOfString;
-  I: Integer;
+  I, Ile: Integer;
+  Jest: Boolean;
 begin
   Plik := ExpandConstant('{app}\shank_polski.ini');
   if not LoadStringsFromFile(Plik, Linie) then
     Exit;
-  for I := 0 to GetArrayLength(Linie) - 1 do
-    if Pos('folder_gry=', Linie[I]) = 1 then
-      Linie[I] := 'folder_gry=' + Folder;
+  Ile := GetArrayLength(Linie);
+  Jest := False;
+  for I := 0 to Ile - 1 do
+    if Pos(Nazwa + '=', Linie[I]) = 1 then
+    begin
+      Linie[I] := Nazwa + '=' + Wartosc;
+      Jest := True;
+    end;
+  if not Jest then
+  begin
+    SetArrayLength(Linie, Ile + 1);
+    Linie[Ile] := Nazwa + '=' + Wartosc;
+  end;
   SaveStringsToUTF8File(Plik, Linie, False);
 end;
 
@@ -188,10 +257,12 @@ begin
     Exit;
   Folder := Trim(StronaFolderu.Values[0]);
   if Folder <> '' then
-    ZapiszFolderGry(Folder);
+    ZapiszUstawienie('folder_gry', Folder);
+  ZapiszUstawienie('lektor', IntToStr(Ord(ChceLektora)));
+  ZapiszUstawienie('audiodeskrypcja', IntToStr(Ord(ChceOpisow)));
   // Komunikat, nie napis na stronie: czytnik ekranu przeczyta go na pewno.
-  if (Manifest <> '') and not GalazClassic then
-    SuppressibleMsgBox('Gra Shank jest w zwykłej wersji. Program działa, ale część scenek będzie mieć tylko lektora, bez audiodeskrypcji.' + #13#10 + #13#10 +
+  if (Manifest <> '') and ChceOpisow and not GalazClassic then
+    SuppressibleMsgBox('Gra Shank jest w zwykłej wersji. Program działa, ale część scenek nie będzie mieć audiodeskrypcji.' + #13#10 + #13#10 +
       'Aby mieć audiodeskrypcję we wszystkich scenkach, włącz gałąź classic: w Steam kliknij prawym przyciskiem grę Shank, wybierz Właściwości, potem Wersje beta i z listy wybierz classic.',
       mbInformation, MB_OK, IDOK);
 end;

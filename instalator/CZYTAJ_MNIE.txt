@@ -21,6 +21,8 @@ WYMAGANIA
   tylko lektora (bez opisów, z mniej dokładnym tłumaczeniem).
 
 INSTALACJA
+Instalator pyta, co zainstalować: lektora i audiodeskrypcję, tylko lektora
+albo tylko audiodeskrypcję. Aby to zmienić, uruchom instalator jeszcze raz.
 Instalator sam szuka gry na Steam. Jeśli gra jest w zwykłej wersji, powie, jak
 włączyć gałąź "classic". Jeśli nie znajdzie gry, zapyta o jej folder. To pytanie
 można pominąć, zostawiając puste pole. Przy aktualizacji ustawienia zostają.
@@ -34,7 +36,7 @@ Skrót "Shank po polsku" na Pulpicie i w menu Start uruchamia program i grę nar
 USTAWIENIA
 W menu Start, w folderze "Shank po polsku", jest skrót "Ustawienia". Otwiera on
 plik shank_polski.ini w Notatniku. Tam można:
-- wyłączyć audiodeskrypcję (audiodeskrypcja=0),
+- wyłączyć audiodeskrypcję (audiodeskrypcja=0) albo lektora (lektor=0),
 - zamiast nagrań lektora używać czytnika ekranu (tryb=napisy),
 - zmienić głośność gry pod lektorem,
 - wpisać folder gry, gdy gra nie jest ze Steam.

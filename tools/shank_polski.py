@@ -48,6 +48,7 @@ def load_config():
         "start_game": s.get("uruchom_gre", "1").strip() == "1",
         "duck": int(s.get("glosnosc_gry_pod_lektorem", "35")) / 100,
         "ad": s.get("audiodeskrypcja", "1").strip() == "1",
+        "dialogue": s.get("lektor", "1").strip() == "1",
     }
 
 
@@ -82,8 +83,8 @@ class Speaker:
 class Player:
     """Odtwarza kwestie jednego filmu w osobnym watku; stop() przerywa."""
 
-    def __init__(self, speaker, mode, duck, ad):
-        self.speaker, self.mode, self.duck, self.ad = speaker, mode, duck, ad
+    def __init__(self, speaker, mode, duck, ad, dialogue):
+        self.speaker, self.mode, self.duck, self.ad, self.dialogue = speaker, mode, duck, ad, dialogue
         self.cancel = threading.Event()
         self.thread = None
 
@@ -95,8 +96,9 @@ class Player:
             return
         with open(path, encoding="utf-8") as f:
             lines = json.load(f)["lines"]
-        if not self.ad:
-            lines = [l if l.get("kind", "d") == "d" else dict(l, pl="") for l in lines]
+        # Puste kwestie zachowuja numeracje nagran (<film>_<nr>.wav).
+        wanted = {"d": self.dialogue, "ad": self.ad}
+        lines = [l if wanted.get(l.get("kind", "d"), True) else dict(l, pl="") for l in lines]
         self.cancel = threading.Event()
         self.thread = threading.Thread(target=self._run, args=(movie, version, lines, started, self.cancel),
                                        daemon=True)
@@ -192,10 +194,13 @@ def main():
             while game.is_running():
                 time.sleep(3)
             continue
-        log(f"gra uruchomiona, tryb {cfg['mode']}, audiodeskrypcja {int(cfg['ad'])}")
-        speaker.say("Polski " + ("lektor" if cfg["mode"] == "lektor" else "tekst") +
-                    (" i audiodeskrypcja" if cfg["ad"] else "") + " włączone.")
-        player = Player(speaker, cfg["mode"], cfg["duck"], cfg["ad"])
+        log(f"gra uruchomiona, tryb {cfg['mode']}, lektor {int(cfg['dialogue'])}, audiodeskrypcja {int(cfg['ad'])}")
+        if cfg["dialogue"]:
+            speaker.say("Polski " + ("lektor" if cfg["mode"] == "lektor" else "tekst") +
+                        (" i audiodeskrypcja" if cfg["ad"] else "") + " włączone.")
+        elif cfg["ad"]:
+            speaker.say("Polska audiodeskrypcja włączona.")
+        player = Player(speaker, cfg["mode"], cfg["duck"], cfg["ad"], cfg["dialogue"])
         watch(game, player, classic)
         log("gra zamknieta")
         player.stop()

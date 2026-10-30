@@ -7,6 +7,7 @@ Projekt fanowski dla niewidomych i słabowidzących graczy, ale może z niego ko
 
 Instalator jest w zakładce [Releases](../../releases/latest): plik `ShankPoPolsku-<wersja>-instalator.exe`.
 Instalacja nie wymaga uprawnień administratora. Instalator jest po polsku i działa z czytnikami ekranu.
+Można w nim wybrać lektora i audiodeskrypcję, tylko lektora albo tylko audiodeskrypcję.
 
 ## Co to robi
 
