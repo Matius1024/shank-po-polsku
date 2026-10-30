@@ -20,6 +20,11 @@ WYMAGANIA
   W zwykłej wersji gry 38 scenek ma lektora i audiodeskrypcję, a pozostałe
   tylko lektora (bez opisów, z mniej dokładnym tłumaczeniem).
 
+INSTALACJA
+Instalator sam szuka gry na Steam. Jeśli gra jest w zwykłej wersji, powie, jak
+włączyć gałąź "classic". Jeśli nie znajdzie gry, zapyta o jej folder. To pytanie
+można pominąć, zostawiając puste pole. Przy aktualizacji ustawienia zostają.
+
 JAK UŻYWAĆ
 Po instalacji program działa w tle i sam rusza razem z Windows (jeśli przy
 instalacji zostawiono tę opcję zaznaczoną). Wystarczy uruchomić grę jak zwykle.

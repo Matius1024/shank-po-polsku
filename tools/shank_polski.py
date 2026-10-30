@@ -14,6 +14,7 @@ import configparser
 import ctypes
 import json
 import os
+import subprocess
 import sys
 import threading
 import time
@@ -159,9 +160,10 @@ def steam_exe():
 
 def start_game(cfg):
     """Gra ze Steam przez Steam; inna kopia (np. GOG) z folder_gry w ustawieniach."""
-    exe = os.path.join(cfg["game"], "Shank.exe") if cfg["game"] else ""
-    if exe and os.path.exists(exe):
-        os.startfile(exe)
+    exes = [os.path.join(cfg["game"], "Shank.exe"), os.path.join(cfg["game"], "bin", "Shank.exe")] if cfg["game"] else []
+    exe = next((e for e in exes if os.path.exists(e)), "")
+    if exe:
+        subprocess.Popen([exe], cwd=os.path.dirname(exe))
     elif steam_exe():
         os.startfile("steam://rungameid/6120")
     else:
