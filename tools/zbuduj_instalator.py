@@ -5,7 +5,7 @@
    (syntezator i tak mowi w 24 kHz), rozmiary_classic.json, domyslne ustawienia, CZYTAJ_MNIE.txt.
 3. Inno Setup (ISCC) robi z pakietu jeden plik instalatora.
 
-Uzycie: D:\\ShankPolski-audio\\buildenv\\Scripts\\python.exe tools\\zbuduj_instalator.py [wersja]
+Uzycie: D:\\projekty AI\\ShankPolski-audio\\buildenv\\Scripts\\python.exe tools\\zbuduj_instalator.py [wersja]
 """
 import json
 import os
@@ -16,10 +16,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-WORK = r"D:\ShankPolski-audio\budowa"
-PAKIET = r"D:\ShankPolski-audio\pakiet"
-PAKIET_LEKTOR = r"D:\ShankPolski-audio\pakiet_lektor"
-PAKIET_AD = r"D:\ShankPolski-audio\pakiet_ad"
+WORK = r"D:\projekty AI\ShankPolski-audio\budowa"
+PAKIET = r"D:\projekty AI\ShankPolski-audio\pakiet"
+PAKIET_LEKTOR = r"D:\projekty AI\ShankPolski-audio\pakiet_lektor"
+PAKIET_AD = r"D:\projekty AI\ShankPolski-audio\pakiet_ad"
 ISCC = os.path.join(os.environ["LOCALAPPDATA"], r"Programs\Inno Setup 6\ISCC.exe")
 NAME = "Shank po polsku"
 VERSIONS = ["classic", "zwykla"]

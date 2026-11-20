@@ -2,7 +2,7 @@
 
 Kazdy film: "d" = kwestie (lektor, tlumaczenie), "ad" = audiodeskrypcja (opis obrazu). Para: (sekunda, tekst).
 Czasy kwestii z rozpisania glosu (tools/transcribe2.py na wersji classic, transcripts_classic/), opisy z klatek
-co 2 sekundy (D:\\ShankPolski-audio\\classic\\sheets). Opisy stoja w przerwach miedzy kwestiami.
+co 2 sekundy (D:\\projekty AI\\ShankPolski-audio\\classic\\sheets). Opisy stoja w przerwach miedzy kwestiami.
 Uruchom: python -I sceny.py  -> zapisuje napisy/<film>.json
 """
 import json
