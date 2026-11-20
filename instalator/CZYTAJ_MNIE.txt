@@ -28,10 +28,16 @@ włączyć gałąź "classic". Jeśli nie znajdzie gry, zapyta o jej folder. To 
 można pominąć, zostawiając puste pole. Przy aktualizacji ustawienia zostają.
 
 JAK UŻYWAĆ
-Po instalacji program działa w tle i sam rusza razem z Windows (jeśli przy
-instalacji zostawiono tę opcję zaznaczoną). Wystarczy uruchomić grę jak zwykle.
+Najwygodniej, żeby Steam sam uruchamiał program razem z grą. W Steam kliknij
+prawym przyciskiem grę Shank, wybierz Właściwości, Ogólne i w polu
+"Opcje uruchamiania" wpisz (razem z cudzysłowami):
+"%LOCALAPPDATA%\Programs\Shank po polsku\Shank po polsku.exe" %command%
+zamieniając %LOCALAPPDATA% na pełną ścieżkę, np. C:\Users\Jan\AppData\Local.
+Od tej pory program startuje razem z grą i zamyka się po wyjściu z gry.
+Skrót "Shank po polsku" na Pulpicie i w menu Start też uruchamia program i grę naraz.
+Można też przy instalacji zaznaczyć opcję uruchamiania razem z Windows: wtedy
+program cały czas czeka w tle na grę.
 Przy starcie gry czytnik ekranu powie "Polski lektor i audiodeskrypcja włączone".
-Skrót "Shank po polsku" na Pulpicie i w menu Start uruchamia program i grę naraz.
 
 KLAWISZE W GRZE
 A: zmienia, co jest czytane: lektor i audiodeskrypcja, tylko lektor, tylko

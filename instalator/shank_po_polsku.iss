@@ -46,7 +46,7 @@ CloseApplications=no
 Name: "pl"; MessagesFile: "compiler:Languages\Polish.isl"
 
 [Tasks]
-Name: "autostart"; Description: "Uruchamiaj program w tle razem z Windows (zalecane)"
+Name: "autostart"; Description: "Uruchamiaj program w tle razem z Windows (niepotrzebne, gdy Steam uruchamia go z grą)"; Flags: unchecked
 Name: "pulpit"; Description: "Skrót na Pulpicie (uruchamia program i grę)"
 
 [Files]

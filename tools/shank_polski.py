@@ -9,6 +9,8 @@ lektor/classic), tak samo filmy z listy "wspolne" (ten sam dzwiek w obu wersjach
 (napisy/zwykla, lektor/zwykla: sam lektor, bez audiodeskrypcji).
 
 Uzycie: pythonw shank_polski.py [--w-tle]   (ustawienia w shank_polski.ini; po spakowaniu: Shank po polsku.exe)
+Ze Steam: opcja uruchamiania gry "<sciezka>\\Shank po polsku.exe" %command% - program uruchamia gre
+i konczy sie razem z nia. Tylko --w-tle czeka na gre bez konca (autostart).
 """
 import configparser
 import ctypes
@@ -330,17 +332,26 @@ def main():
     # Jedna kopia programu naraz: druga (np. z pliku na Pulpicie) tylko uruchamia gre.
     ctypes.windll.kernel32.CreateMutexW(None, False, "ShankPoPolsku")
     first = ctypes.windll.kernel32.GetLastError() != 183  # ERROR_ALREADY_EXISTS
-    if cfg["start_game"] and "--w-tle" not in sys.argv and find_game() is None:
+    game_cmd = [a for a in sys.argv[1:] if a != "--w-tle"]  # polecenie gry od Steam (%command%)
+    if game_cmd and find_game() is None:
+        subprocess.Popen(game_cmd, cwd=os.path.dirname(game_cmd[0]) or None)
+    elif cfg["start_game"] and "--w-tle" not in sys.argv and find_game() is None:
         start_game(cfg)
     if not first:
         return
     log("start, czekam na gre")
     classic = load_classic()
+    once = "--w-tle" not in sys.argv  # bez --w-tle program konczy sie razem z gra
+    started, seen = time.time(), False
     while True:
         game = find_game()
         if game is None:
+            if once and (seen or time.time() - started > 120):
+                log("koniec programu")
+                return
             time.sleep(3)
             continue
+        seen = True
         cfg = load_config()  # zmiany w shank_polski.ini dzialaja od nastepnego uruchomienia gry
         if cfg["mode"] in ("wylaczone", "wyłączone"):
             while game.is_running():
